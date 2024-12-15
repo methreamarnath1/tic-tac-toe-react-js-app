@@ -50,6 +50,8 @@ const TicTacToe = () => {
       won(data[8]);
     } else if (data[2] === data[4] && data[4] === data[6] && data[6] !== "") {
       won(data[6]);
+    } else if (data[3] === data[6] && data[6] === data[9] && data[9] !== "") {
+      won(data[6]);
     } else if (
       data[0] !== "" &&
       data[1] !== "" &&
